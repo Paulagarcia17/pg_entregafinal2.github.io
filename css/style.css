@@ -1,0 +1,206 @@
+/*index.html*/
+/*LOS ESTILOS DEL INDEX PRINCIPAL*/
+
+.classlink {
+    text-decoration: none;
+}
+
+.videobsas {
+  width: max-content;
+  line-height: 50%;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  
+}
+.divpadre { 
+    background-color: black;
+}
+
+.classcarrusel{
+    background-color: transparent #00000099;
+}
+
+.classtabla
+{
+    background-image: url(fondoformulario.png);
+}
+
+.h1-title {
+    font-size: 45px;
+    /* font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sub-title {
+    font-size: 30px;
+    /* font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* 
+.body_masinfo {
+    width: 20%;
+} */
+/* .contacto_texto {
+    width: 100%;
+} */
+
+
+/*.boxes {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-auto-rows: 450px 450px 450px;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    font-size: 40px;
+    margin: 10px;
+    /*background-color: darkgrey;
+}*/
+
+/*medias queries*/
+/*@media (max-width=320px) {}
+
+@media (min-width=321px) and (max-width=768px) {}
+
+/*@media (min-width=769px) and (max-width=1024px) {}*/
+
+.imgba {
+    float: right;
+}
+
+.header {
+
+    color: black;
+    width: fit-content;
+    width: 100%;
+    height: 100%;
+    /*border-width: 5px;*/
+    /*border-color:black;*/
+    /*border-style: solid;*/
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    padding: 20px;
+    margin: 10px;
+}
+
+/*.bsas_h1
+{
+    background-color: rgb(235, 223, 171);
+    margin: 20px;
+}*/
+
+.section {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.aside {
+    /*background-color: rgb(194, 189, 169);*/
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
+/*footer*/
+.p {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    /* background-color: rgb(151, 151, 147);*/
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.footer {
+    /*background-color: rgb(180, 179, 172);*/
+    color: black;
+    width: fit-content;
+    width: 100%;
+    height: 100%;
+    /*border-width: 5px;*/
+    /*border-color:black;
+    border-style: solid;*/
+    /*font-size: 20px;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.h1 {
+    /* background-color: rgb(182, 180, 169);*/
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    width: 100%;
+    height: 100%;
+    /*border-width: 5px;*/
+    /*border-color:black;*/
+    /*border-style: solid;*/
+    padding: 20px;
+    margin: 10px;
+}
+
+.lista-nav {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: rgb(250, 232, 127);
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+/*Contacto Formulario*/
+
+.contacto {
+    font-size: 30px;
+    text-align: center;
+}
+
+.formulario {
+    width: fit-content;
+    background-color: rgb(173, 173, 173);
+    color: black;
+    /*border-style: solid;
+    border-width: 5px;
+    border-color:black;*/
+}
+
+/*clima*/
+.clima {
+    background-color: rgb(199, 197, 189)
+}
+
+
+
+/* Horario de atención */
+.dias {
+    background-color: rgb(247, 218, 175);
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.dias-semana {
+    background-color: rgb(243, 206, 125);
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.horarios {
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+}

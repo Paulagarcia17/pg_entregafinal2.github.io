@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mas Info +</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='javascript.js'></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+
+<body>
+    <header class="header">
+        <span class="navbar-text">
+            <div class="container-fluid p-5 bg-white text-black" style='text-align:right'>
+                <h1 id="top-page"> Descubrí Buenos Aires </h1>
+                <p> Mas Información</p>
+            </div>
+        </span>
+        <h1 class="container" style='text-align:left'> </h1>
+        <a href="index.html"><img src="./img/logo_descargaba.png" class="float-start"></a>
+        <br>
+        <br>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="razones_para_visitarla.html" target="_blank">Razones para Visitarla</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mas_info.html" target="_blank">Mas Info +</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="quehacerenbsas.html" target="_blank"> Qué hacer en
+                    BsAs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page"
+                    href="https://www.accuweather.com/es/ar/buenos-aires/7894/weather-forecast/7894"
+                    target="_blank">Clima</a>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page"
+                    href="https://mapa.buenosaires.gob.ar/comollego/?lat=-34.605376&lng=-58.406839&zl=13&modo=transporte"
+                    target="_blank">Mapa interactivo</a>
+            </li>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+
+        <body class="body_masinfo">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <aside>
+                            <div>
+                                <legend>Formulario de contacto</legend>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Sexo</option>
+                                <option value="1">Masculino</option>
+                                <option value="2">Femenino</option>
+                                <option value="3">Otro</option>
+                            </select>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                <input type="email" required class="form-control" id="exampleFormControlInput1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Fecha de Nacimiento</label>
+                                <input type="date" class="form-control" id="exampleFormControlInput1" required>
+                            </div>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Pais</option>
+                                <option value="arg">Argentina</option>
+                                <option value="bol">Bolivia</option>
+                                <option value="chil">Chile</option>
+                                <option value="br">Brasil</option>
+                                <option value="Ur">Urugay</option>
+                                <option value="Col">Colombia</option>
+                                <option value="Ven">Venezuela</option>
+                                <option value="it">Italia</option>
+                                <option value="fr">Francia</option>
+                                <option value="al">Alemania</option>
+                                <option value="ing">Inglaterra</option>
+                                <option value="mex">México</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                            <br>
+                            <label for="inputPassword5" class="form-label">Contraseña </label>
+                            <input type="password" id="inputPassword5" class="form-control"
+                                aria-labelledby="passwordHelpBlock">
+                            <div id="passwordHelpBlock" class="form-text">
+                                Su contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe
+                                contener
+                                espacios,
+                                caracteres especiales ni emoji.
+                            </div>
+                            <br>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    No soy un Robot
+                                </label>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-light" type="button">Reset</button>
+                                <button class="btn btn-dark" type="button">Enviar</button>
+                            </div>
+                        </aside>
+                    </div>
+                    <!-- USE CLASE DE BOOTSTRAP -->
+                    <div class="col " class= "classtabla">
+                        <table class="table table-dark table-striped">
+                            <tr>
+                                <th colspan="7">Horarios de Atención</th>
+                            </tr>            
+                            <tr>
+                                <td>Lunes</td>
+                                <td>Martes</td>
+                                <td>Miercoles</td>
+                                <td>Jueves</td>
+                                <td>Viernes</td>
+                                <td>Sábado</td>
+                                <td>Dómingo</td>
+                            </tr>            
+                            <tr>
+                                <td colspan="5">
+                                    <center>8 hs a 20 hs </center>
+                                </td>
+                                <td>8 hs a 13 hs </td>
+                                <td>Cerrado</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <br>
+                <br>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th colspan="4 center" scope="col" > Miembros del Equipo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"></th>
+                        <td>Paula Garcia</td>
+                        <td>Martina Lasalle</td>
+                        <td>Javier Andrada</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th>
+                        <td>Programadora Web</td>
+                        <td>Diseñadora Gráfica</td>
+                        <td>Ciber Seguridad</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+            </div>
+            </aside>
+            <br>
+            <footer class="footer">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="https://www.instagram.com/" target="_blank"><img src="./img/logo_inst.png"></a>
+                        <a href="https://www.youtube.com/" target="_blank"><img src="./img/logo_youtube.png"></a>
+                        <a href="https://web.whatsapp.com/" target="_blank"><img src="./img/logo_what.png"></a>
+                    </li>
+                    <li class="list-group-item"><a class="btn btn-white" type="button" class="classlink" download
+                            href="guia_turismobsas.pdf" target="_blank">Guia de
+                            Turismo para Descargar</a></li>
+                    <li class="list-group-item"><a class="btn btn-white" class="classlink"
+                            href=" tel: 3364657355">Telefono</a></li>
+                    <li class="list-group-item">Página creada por el Ministerio de Turismo</li>
+                    <li class="list-group-item">Política de Privacidad respecto del tratamiento y protección de los
+                        datos de carácter
+                        personal de los usuarios y clientes que puedan ser recabados por la navegación o contratación de
+                        servicios a
+                        través del
+                        sitio Web.</li>
+                    <a class="classlink" href="#top-page">
+                        <li class="list-group-item">Volver al Menu</li>
+                    </a>
+                </ul>
+            </footer>
+            
+            <script src="./js/javascript.js"></script>
+
+        </body>
+    </main>
+</body>
